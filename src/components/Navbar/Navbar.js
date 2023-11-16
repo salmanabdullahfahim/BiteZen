@@ -9,7 +9,7 @@ const Navbar = () => {
           Bite Zen
         </Link>
 
-        <nav className="flex items-center gap-8 text-gray-500 font-semibold">
+        <nav className="flex items-center gap-8 text-gray-100 font-semibold">
           <Link href="/" className="active:text-primary">
             Home
           </Link>
