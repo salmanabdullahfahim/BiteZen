@@ -3,7 +3,7 @@ import React from "react";
 
 const MenuItem = () => {
   return (
-    <div className="bg-black/10 p-3 text-center rounded-lg shadow-xl border-2 border-gray-400">
+    <div className="bg-black/10 p-3 text-center rounded-lg shadow-xl border-2 border-gray-500 group hover:bg-gray-900 transition-all duration-200">
       <Image
         src="/pizza.png"
         alt="pizza"
