@@ -3,10 +3,13 @@ import { FaArrowRight } from "react-icons/fa6";
 
 export default function Home() {
   return (
-    <section className="flex justify-around items-center">
+    <section className="flex flex-col md:flex-row md:justify-between items-center">
       <div>
-        <h1 className="text-4xl text-white font-semibold">
-          Everything is better with a pizza
+        <h1 className="text-5xl text-white font-semibold">
+          Everything <br />
+          is better <br />
+          with a&nbsp;
+          <span className="text-primary">pizza</span>
         </h1>
         <p className="my-4 text-gray-400">
           pizza is the missing place that makes everyday complete, a simple yet
