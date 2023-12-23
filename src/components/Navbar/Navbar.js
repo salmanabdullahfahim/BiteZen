@@ -16,8 +16,13 @@ const Navbar = () => {
           <Link href="">Menu</Link>
           <Link href="">About</Link>
           <Link href="">Contact</Link>
-          <Link href="" className="bg-primary px-6 py-2 rounded-lg text-white">
+        </nav>
+        <nav className="flex items-center gap-x-6">
+          <Link href="" className="text-white font-bold ">
             Login
+          </Link>
+          <Link href="" className="bg-primary px-6 py-2 rounded-lg text-white">
+            Register
           </Link>
         </nav>
       </header>
